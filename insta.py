@@ -121,12 +121,12 @@ def cek_login():
 				hapus_cookie()
 				login_dev()
 None
-### LOGINAN ###
+### LOGIN ###
 def login_dev():
 	global cookie
 	os.system("clear")
 	logo()
-	print "  [ login aakun instagram untuk lanjut ]"
+	print "  [ login akaun instagram untuk seterusnya ]"
 	username_dev = raw_input("\n [?] username instagram : ")
 	pass_dev = raw_input(" [?] password instagram : ")
 	try:
@@ -288,12 +288,12 @@ def menu_dev():
 		else:
 			exit(" [!] pilih yang benar!")
 	elif pil == "0" or pil == "00":
-		kel = raw_input(" [?] yakin nak Logout dari akun Instagram?[Y/t] : ")
+		kel = raw_input(" [?] yakin nak Logout dari akaun Instagram?[Y/t] : ")
 		if kel in ["y", "Y"]:
 			hapus_cookie()
 			print " [✓] berhasil logout..."
 		else:
-			print" [*] silahkan jalan restart toolsnya"
+			print" [*] sila jalan restart toolsnya"
 	else:
 		print" [!] isi pilhan dengan benar!"
 
